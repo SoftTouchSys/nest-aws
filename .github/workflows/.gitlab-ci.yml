@@ -22,6 +22,6 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: nest-aws
         environment_name: Nestaws-env
-        version_label: work-ss45b
+        version_label: work-ss
         region: us-east-1
         deployment_package: deploy.zip
