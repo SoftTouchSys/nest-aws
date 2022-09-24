@@ -23,5 +23,5 @@ jobs:
         application_name: Recrewter-restApi
         environment_name: Recrewterrestapi-env
         version_label: 12345
-        region: us-west-1
+        region: us-west-2
         deployment_package: deploy.zip
