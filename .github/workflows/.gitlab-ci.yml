@@ -22,7 +22,7 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: Recrewter-restApi
         environment_name: Recrewterrestapi-env
-        version_label: 12345
+        version_label: 12345a
         region: us-west-2
         deployment_package: deploy.zip
         use_existing_version_if_available: true
