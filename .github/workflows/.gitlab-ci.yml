@@ -20,8 +20,8 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: nest-aws
-        environment_name: Nestaws-env
+        application_name: Recrewter-restApi
+        environment_name: Recrewterrestapi-env
         version_label: work-sswa-nest
         region: us-east-1
         deployment_package: deploy.zip
