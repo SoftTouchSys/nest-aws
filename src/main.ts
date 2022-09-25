@@ -8,7 +8,7 @@ dotEnvConfig();
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  app.setGlobalPrefix('/');
+  app.setGlobalPrefix('api/v1');
   app.useGlobalPipes(new ValidationPipe({
     exceptionFactory: (errors: any) => new BadRequestException(errors)
   }));
@@ -16,6 +16,6 @@ async function bootstrap() {
   //   origin:[`${env.FRONT_END_URL}`]
   // });
   app.enableCors() 
-  await app.listen(env.END_POINT_URL || 3000);
+  await app.listen(env.END_POINT_URL);
 }
 bootstrap();
